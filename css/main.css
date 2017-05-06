@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+/***
+BASE STYLES 
+***/
+
+body {
+	font: normal 1rem "Lato", Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #fff;
+	background: #2391D3; 
+}
+
+a {
+	text-decoration: none;
+	color: #2391D3;
+	transition: color .4s;
+}
+
+a:hover {
+	color: yellow;
+}
+
+.link-span {
+	background: #fff;
+}
+/***
+LAYOUT CONTAINERS
+***/
+
+.main-wrap {
+	width: 100%;
+}
+
+.main-header,
+.video-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.main-header {
+	background: linear-gradient(to right, #3224AE, #C56CD6);
+	padding: 1em;
+	border-bottom: 3px solid #fff;
+	flex-direction: column;
+	align-items: center;
+	/*text-align: center;*/
+}
+
+.name {
+	margin: 0;
+	font-size: 1.4em;
+}
+
+.info {
+	/*color: #cdcdcd;*/
+	/*line-height: 1.1;*/
+	font-size: .9rem;
+}
+
+.video-section {
+	width: 100%;
+}
+
+video,
+.video-wrap {
+	max-height: 100%;
+	max-width: 100%;
+}
+/*.video-wrap {
+	display: flex;
+	justify-content: center;
+}*/
+
+.caption-section {
+	width: 90%;
+	margin: 0 auto;
+}

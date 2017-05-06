@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Interactive Video Player</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		<link rel="stylesheet" href="css/normalize.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/mediaelement/4.1.0/mediaelement-and-player.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/mediaelement/4.1.0/mediaelementplayer.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+
+	<body>
+
+		<main class="main-wrap">
+
+			<header class="main-header">
+				<h1 class="name">Interactive Video Player</h1>
+				<p class="info">Interactive video player using JavaScript, the HTML5 Video API, and <a href="http://www.mediaelementjs.com/" target="_blank">MediaElement.js</a> that synchronizes the video and transcript, and allows users to jump to specified parts of the video by clicking the transcript text. Additonally, the transcript is highlited as the matching section of the video plays. The video player is styled and customized with <a href="http://www.mediaelementjs.com/" target="_blank">MediaElement.js</a> and CSS</p>
+
+			</header>
+
+			<section class="video-section">
+
+				<div class="video-wrap">
+					<video width="" height="">
+						<source src="video_player_v3/video/video.mp4" type="video/mp4">
+						<source src="video_player_v3/video/video.ogg" type="video/ogg">
+					</video>
+				</div><!--/.video-wrap-->
+
+			</section>
+
+			<section class="caption-section">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+
+		</main>
+
+		<script>
+			$('video').mediaelementplayer({
+				features: ['playpause', 'tracks', 'progress', 'duration', 'volume', 'fullscreen'],
+  				startLanguage: 'en'
+			});
+		</script>
+	
+	</body>
+
+
+</html>
