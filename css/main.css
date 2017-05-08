@@ -53,6 +53,7 @@ LAYOUT CONTAINERS
 .name {
 	margin: 0;
 	font-size: 1.4em;
+	font-weight: normal;
 }
 
 .info {
@@ -66,7 +67,7 @@ LAYOUT CONTAINERS
 
 .video-wrap {
 	width: 100%;
-	max-width: 900px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 	
@@ -86,7 +87,16 @@ LAYOUT CONTAINERS
 
 @media only screen and (min-width: 768px) {
 
+	.info {
+		width: 80%;
+	}
+
 	.video-wrap {
 		margin-top: 3em;
+		margin-bottom: 3em;
+	}
+
+	.caption-section {
+		width: 80%;
 	}
 }
