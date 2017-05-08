@@ -19,17 +19,15 @@ body {
 
 a {
 	text-decoration: none;
-	color: #2391D3;
+	color: yellow;
 	transition: color .4s;
 }
 
 a:hover {
-	color: yellow;
+	color: #2391D3;
 }
 
-.link-span {
-	background: #fff;
-}
+
 /***
 LAYOUT CONTAINERS
 ***/
@@ -68,16 +66,13 @@ LAYOUT CONTAINERS
 	width: 100%;
 }
 
-video,
-.video-wrap {
-	max-height: 100%;
-	max-width: 100%;
-}
-/*.video-wrap {
-	display: flex;
-	justify-content: center;
-}*/
 
+.video-wrap {
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+}
+	
 .caption-section {
 	width: 90%;
 	margin: 0 auto;
