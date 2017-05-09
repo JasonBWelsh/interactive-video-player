@@ -76,12 +76,29 @@ LAYOUT CONTAINERS
 	margin: 0 auto;
 }
 
+.highlight {
+	color: #2391D3;
+	background: #fff;
+	font-size: 1.1;
+}
+
+/*** Video Components ***/
 
 
 .mejs__player .mejs__controls {
 	
 }
 
+.mejs__button,
+.mejs__playpause-button,
+.mejs__play,
+.mejs__pause {
+	background: #2391D3;
+}
+
+
+
+/*#2391D3*/
 
 /*** MEDIA QUERIES ***/
 
