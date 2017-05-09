@@ -68,7 +68,7 @@ LAYOUT CONTAINERS
 .video-wrap {
 	width: 100%;
 	max-width: 800px;
-	margin: 0 auto;
+	margin: 0 auto 3em;
 }
 	
 .caption-section {
@@ -76,26 +76,41 @@ LAYOUT CONTAINERS
 	margin: 0 auto;
 }
 
+.no-highlight { /* applied to have transition effect on JS highlight class */
+	transition: all 1.5s ease-in-out;
+}
+
 .highlight {
-	color: #2391D3;
-	background: #fff;
-	font-size: 1.1;
+	color: #C56CD6; /*#2391D3;*/
+	background: #3224AE;
+	padding: 0.3em;
+	border-radius: 8px;
+	transition: all 0.5s ease-in-out;
 }
 
 /*** Video Components ***/
 
 
-.mejs__player .mejs__controls {
-	
-}
+.mejs__inner .mejs__controls {
+  background: #3224AE; }
 
-.mejs__button,
-.mejs__playpause-button,
-.mejs__play,
-.mejs__pause {
-	background: #2391D3;
-}
+.mejs__time-current {
+  background: #2391D3 }
 
+.mejs__controls {
+  margin: 0;
+  padding: 5px 10px;
+  bottom: -40px;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  border-radius: 8px; }
+
+.mejs__container {
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #34495e; }
 
 
 /*#2391D3*/

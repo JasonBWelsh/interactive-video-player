@@ -12,7 +12,7 @@ video.addEventListener('timeupdate', (e) => {
 		if ( time >= captionStart && time <= captionEnd ) {
 			cap.className = 'highlight';
 		} else {
-			cap.className = '';
+			cap.className = 'no-highlight';
 		}
 	}	
 });
