@@ -76,12 +76,19 @@ LAYOUT CONTAINERS
 	margin: 0 auto;
 }
 
+.caption-instruction {
+	text-align: center;
+	font-weight: normal;
+	color: #323232;
+	margin: 1em auto 0;
+}
+
 .no-highlight { /* applied to have transition effect on JS highlight class */
 	transition: all 1.5s ease-in-out;
 }
 
 .highlight {
-	color: #C56CD6; /*#2391D3;*/
+	color: #C56CD6; /*#2391D3;*/ 
 	background: #3224AE;
 	padding: 0.3em;
 	border-radius: 8px;
@@ -91,26 +98,47 @@ LAYOUT CONTAINERS
 /*** Video Components ***/
 
 
+
 .mejs__inner .mejs__controls {
-  background: #3224AE; }
+  background: #3224AE; 
+}
+
+/*video,
+#my_video,
+.mejs__container,
+.mejs__container-keyboard-inactive,
+.mejs__video,
+.mejs__player,
+.mejs__overlay,
+.mejs__overlay-play {
+	border-radius: 8px;
+}*/
+
+
+.mejs__controls .mejs__button button {
+	outline: none;
+}
 
 .mejs__time-current {
-  background: #2391D3 }
+  background: #2391D3; 
+}
 
 .mejs__controls {
   margin: 0;
-  padding: 5px 10px;
-  bottom: -40px;
+  padding: 5px 7px;
+  bottom: -45px;
   left: 0;
-  height: 50px;
+  height: 45px;
   width: 100%;
   z-index: 1;
-  border-radius: 8px; }
+  /*border-radius: 8px; */
+}
 
 .mejs__container {
   border-radius: 4px 4px 0 0;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
-  border-top: 1px solid #34495e; }
+  border-top: 1px solid #34495e; 
+}
 
 
 /*#2391D3*/
@@ -125,7 +153,7 @@ LAYOUT CONTAINERS
 
 	.video-wrap {
 		margin-top: 3em;
-		margin-bottom: 3em;
+		margin-bottom: 3.5em;
 	}
 
 	.caption-section {
