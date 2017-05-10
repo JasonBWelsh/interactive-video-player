@@ -42,14 +42,11 @@ LAYOUT CONTAINERS
 	justify-content: center;
 }
 
-.main-header, 
-.main-footer {
-	background: linear-gradient(to right, #3224AE, #C56CD6);
-	padding: 1em;
-	
-}
+
 
 .main-header {
+	background: linear-gradient(to right, #3224AE, #C56CD6);
+	padding: 1em;
 	border-bottom: 3px solid #fff;
 	flex-direction: column;
 	align-items: center;
@@ -97,8 +94,8 @@ LAYOUT CONTAINERS
 }
 
 .highlight {
-	color: #C56CD6; /*#2391D3;*/ 
-	background: #3224AE;
+	color: #C56CD6; 
+	background: #323232;/*#3224AE;*/
 	padding: 0.3em;
 	/*padding: 3px;*/
 	border-radius: 8px;
@@ -106,9 +103,14 @@ LAYOUT CONTAINERS
 }
 
 .main-footer {
+	background: #323232;
+	color: #767676;
+	padding: 1em;
 	text-align: center;
-	border-top: 3px solid #fff;
+	/*border-top: 1px solid #fff;*/
 }
+
+
 /*** Video Components ***/
 
 
