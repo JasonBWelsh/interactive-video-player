@@ -45,9 +45,9 @@ LAYOUT CONTAINERS
 
 
 .main-header {
-	background: linear-gradient(to right, #3224AE, #C56CD6);
+	background: #323232;
 	padding: 1em;
-	border-bottom: 3px solid #fff;
+	border-bottom: 1px solid #fff;
 	flex-direction: column;
 	align-items: center;
 }
@@ -94,10 +94,9 @@ LAYOUT CONTAINERS
 }
 
 .highlight {
-	color: #C56CD6; 
-	background: #323232;/*#3224AE;*/
+	/*color: #767676; */
+	background: #323232;
 	padding: 0.3em;
-	/*padding: 3px;*/
 	border-radius: 8px;
 	transition: all 0.5s ease-in-out;
 }
@@ -107,7 +106,6 @@ LAYOUT CONTAINERS
 	color: #767676;
 	padding: 1em;
 	text-align: center;
-	/*border-top: 1px solid #fff;*/
 }
 
 
